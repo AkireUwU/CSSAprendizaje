@@ -1,0 +1,49 @@
+#cajaPadre {
+    position: relative;
+    width: 365px;
+    height: 274px;
+    overflow: hidden;
+    top: 60px;
+    border-color: aqua;
+    border-style: solid;
+}
+#contenedor {
+    position: absolute;
+    top: 0px;
+    width: 365px;
+    height: 324px;
+    border-color: yellow;
+    border-style: solid;
+    transition: top 0.5s ease-in-out 0s;
+}
+#contenedorSup {
+    width: 365px;
+    height: 274px;
+    border-color: green;
+    border-style: solid;
+}
+#contenedorInf {
+    width: 365px;
+    height: 35px;
+    padding-top: 15px;
+    background-color: rgba(200, 200, 200, 0.8);
+    text-align: center;
+    border-color: blueviolet;
+    border-style: solid;
+}
+#contenedor:hover {
+    top: -50px;
+}
+
+#articuloCientifico {
+    position: relative;
+    top: 120px;
+    width: 580px;
+    padding: 10px;
+    border: 1px solid black;
+
+    column-count: 2;
+    column-gap: 20px;
+    column-rule-style: dotted;
+    column-rule-color: burlywood;
+}

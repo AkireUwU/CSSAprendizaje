@@ -1,0 +1,37 @@
+.figure1 {
+    background-color: rgb(190, 150, 200);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.figure2 {
+    background-color: rgba(190, 150, 200,0.5);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.figure3{
+    background-color: #341755;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.figure4 {
+    background-color: hsl(250, 20%, 50%);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.container_figures {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
