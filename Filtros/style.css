@@ -1,0 +1,77 @@
+@font-face {
+    font-family: newFont;
+    src: url(../Sizes_border/ProximaSoft-Bold.ttf);
+}
+p:nth-child(1){
+    font-family: newFont;
+    width: 250px;
+    margin: 50px;
+    filter: blur(1px);
+}
+p:nth-child(2):hover{
+    font-family: newFont;
+    width: 250px;
+    margin: 50px;
+    border-color: black;
+    border: 1px solid;
+    padding: 5px;
+    text-align: center;
+    transform: perspective(500px) rotate3d(5,5,6,30deg);
+    transition: transform 1s ease-in-out 0s;
+}
+.image {
+    width: 400px;
+    filter: grayscale(0.5);
+}
+@keyframes mianimacion{
+    0% {
+        background-color: #122367;
+    }
+    50% {
+        background-color: #123455;
+    }
+    90% {
+        background-color: #455678;
+    }
+    95% {
+        background-color: #457890;
+    }
+    100% {
+        background-color: #122367;
+    }
+}
+
+@keyframes animacion {
+    20% {
+        background-color: #FFFFFF;
+    }
+    35% {
+        transform: scale(0.5);
+        background-color: #FFFF00;
+    }
+    50% {
+        transform: scale(1.5);
+        background-color: #FF0000;
+    }
+    65% {
+        transform: scale(0.5);
+        background: #FFFF00;
+    }
+    80% {
+        background: #FFFFFF;
+    }
+    
+}
+.figure{
+    margin-top: 50px;
+    height: 100px;
+    width: 100px;
+    animation: mianimacion 2s ease-in-out 0s infinite normal none;
+}
+.figure1 {
+    margin-top: 50px;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    animation: animacion 2s ease-in-out 0s infinite none;
+}

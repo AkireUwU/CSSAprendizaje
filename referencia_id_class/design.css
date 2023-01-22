@@ -1,0 +1,33 @@
+#titulo { /* ID: Esta es una forma muy 
+    específica de referenciar a un elemento y se usa comúnmente con elementos estructurales, como 
+    <section> o <div>.*/
+    font-size: 60px;
+    color: green;
+}
+p.parrafo { /*clases*/
+    font-size: 20px;
+    color: greenyellow;
+}
+.citacion{
+    font-size: 30px;
+    color: goldenrod;
+}
+p[name~='mi'] { /*otra forma de referenciar a un elemento de manera mas especifica*/
+    font-size: 25px;
+    color: pink;
+}
+p[name^='mi'] {
+    font-size: 25px;
+    color:blueviolet;   
+}
+p[name$='mi'] {
+    font-size: 25px;
+    color:blue;
+}
+/*p[name*='mi'] {
+    font-size: 25px;
+    color:teal;
+}
+    referencia cualquier elemento con atributo name el cual contenga
+    en su cadena de caracteres el valor mi (evidentemente afecta a todos los elementos)
+*/
