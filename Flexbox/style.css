@@ -1,0 +1,107 @@
+#cajapadre {
+    width: 600px;
+    height: 200px;
+    display: flex;
+    border: 1px solid;
+    /*lex-direction: row-reverse;*/
+    justify-content: center;
+    align-items: center;
+}
+#cajapadre > div {
+    height: 145px;
+    margin: 5px;
+    background-color: #456789;
+}
+#caja-1 {
+    width: 100px;
+    /*flex: 1;*/
+}
+#caja-2 {
+    width: 100px;
+    /*flex: 1;*/
+}
+#caja-3 {
+    width: 100px;
+    /*flex: 1;*/
+}
+#caja-4 {
+    width: 100px;
+    /*flex: 1;*/
+}
+#fatherBox {
+    margin-top: 70px;
+    display: flex;
+    width: 600px;
+    height: 200px;
+    border: 1px solid;
+    align-items: stretch;
+}
+#fatherBox > div {
+    margin: 10px;
+    background-color: #129045;
+}
+#caja1 {
+    flex: 1;
+}
+#caja2 {
+    flex: 1;
+}
+#caja3 {
+    flex: 1;
+}
+#caja4 {
+    flex: 1;
+}
+#cajapadre2 {
+    margin-top: 70px;
+    display: flex;
+    width: 600px;
+    height: 200px;
+    border: 1px solid;
+    align-items: flex-start;
+}
+#cajapadre2 > div {
+    height: 145px;
+    margin: 5px;
+    background-color: #896790;
+}
+#caja_1 {
+    flex: 1;
+}
+#caja_2 {
+    flex: 1;
+    align-self: center;
+}
+#caja_3 {
+    flex: 1;
+}
+#caja_4 {
+    flex: 1;
+}
+#fatherBox2 {
+    margin-top: 70px;
+    display: flex;
+    width: 600px;
+    height: 200px;
+    border: 1px solid;
+    /*justify-content: center;*/
+    flex-wrap: wrap-reverse;
+    align-content: flex-start;
+}
+#fatherBox2 > div {
+    height: 40px;
+    margin: 5px;
+    background-color: #908910;
+}
+#caja-1-1 {
+    width: 100px;
+}
+#caja-2-1 {
+    width: 100px;
+}
+#caja-3-1 {
+    width: 100px;
+}
+#caja-4-1 {
+    flex:400px;
+}
